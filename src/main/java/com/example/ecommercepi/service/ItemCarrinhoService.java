@@ -1,17 +1,17 @@
 package com.example.ecommercepi.service;
 
 import com.example.ecommercepi.model.ItemCarrinho;
-import com.example.ecommercepi.repository.ItemRepository;
+import com.example.ecommercepi.repository.ItemCarrinhoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ItemService {
+public class ItemCarrinhoService {
 
     @Autowired
-    private ItemRepository itemRepository;
+    private ItemCarrinhoRepository itemRepository;
 
     public List<ItemCarrinho> findAll() {
         return this.itemRepository.findAll();

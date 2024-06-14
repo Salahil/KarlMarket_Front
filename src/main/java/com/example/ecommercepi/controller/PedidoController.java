@@ -1,2 +1,4 @@
-package com.example.ecommercepi.controller;public class PedidoController {
+package com.example.ecommercepi.controller;
+
+public class PedidoController {
 }
