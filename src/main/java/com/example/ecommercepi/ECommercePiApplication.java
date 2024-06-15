@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ECommercePiApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(ECommercePiApplication.class, args);
 	}
 

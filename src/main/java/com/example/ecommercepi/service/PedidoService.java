@@ -2,6 +2,7 @@ package com.example.ecommercepi.service;
 
 import com.example.ecommercepi.model.Pedido;
 import com.example.ecommercepi.repository.PedidoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -9,6 +10,7 @@ import java.time.LocalDate;
 @Service
 public class PedidoService {
 
+    @Autowired
     private PedidoRepository pedidoRepository;
 
     public PedidoService(PedidoRepository pedidoRepository) {
