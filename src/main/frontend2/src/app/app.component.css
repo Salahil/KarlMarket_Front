@@ -1,0 +1,5 @@
+/* Estilo para imitar o padding-top: 65px do Bootstrap */
+.container {
+  padding-top: 65px;
+  box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
+}
