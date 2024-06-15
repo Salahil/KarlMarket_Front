@@ -1,1 +1,73 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos Globais */
+body {
+  padding-top: 56px; /* Espaço para a barra de navegação fixa */
+}
+
+/* Barra de Navegação */
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Container dos Produtos e Carrinho de Compras */
+.container {
+  margin-top: 20px;
+}
+
+/* Produtos */
+.card-deck .card {
+  margin-bottom: 20px;
+}
+
+.card-header h4 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.card-body img {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Carrinho de Compras */
+.shopping-cart {
+  background: #dc3545;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.shopping-cart .card-header {
+  background: #c82333;
+  border-bottom: 1px solid #dc3545;
+}
+
+.shopping-cart .card-body {
+  padding: 10px;
+}
+
+.shopping-cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shopping-cart ul li {
+  margin-bottom: 10px;
+}
+
+.shopping-cart .btn-block {
+  width: 100%;
+}
